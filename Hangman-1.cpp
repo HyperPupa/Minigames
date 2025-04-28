@@ -5,7 +5,7 @@
 #include <ctime>
 using namespace std;
 
-vector<string> words = {"computer", "science", "hangman", "programming", "wizard", "galaxy"};
+vector<string> words = {"computer", "software", "hangman", "programming", "github", "coding"};
 
 void displayWord(const string& word, const vector<bool>& guessed) {
     for (int i = 0; i < word.length(); ++i) {
